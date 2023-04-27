@@ -23,7 +23,7 @@ const recommendationData = [
     avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
     comment:
       "Went there on a late afternoon, shop was around 30-40% full. Asked for a V60 pour over coffee and got told by the staff that they will not make it.",
-    summary: "Cool, decor, dogs",
+    summary: "Awful, rude, unrecommendable ",
     questions: [
       {
         question: "How familiar are you with Ancoats Coffee Co.?",
@@ -31,7 +31,7 @@ const recommendationData = [
       },
       {
         question: "Describe your experience with Ancoats Coffee Co.?",
-        answer: "Delightful",
+        answer: "Bad",
       },
     ],
   },
@@ -40,7 +40,7 @@ const recommendationData = [
     user: "Jack",
     avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
     comment: "Excellent coffee. The decor is very tasteful and pleasant.",
-    summary: "Cool, friendly, dogs",
+    summary: "Excellent, tasteful, pleasant",
     questions: [
       {
         question: "How familiar are you with Ancoats Coffee Co.?",

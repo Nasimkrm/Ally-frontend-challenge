@@ -7,10 +7,7 @@ const RecommendationPreviewList: React.FC = () => {
   const [reviews, setReviews] = useState<Review[]>();
 
   useEffect(() => {
-    const fetchRecommendations = () => {
-      return recommendationData;
-    };
-    setReviews(fetchRecommendations);
+    setReviews(recommendationData);
   }, []);
 
   return (
