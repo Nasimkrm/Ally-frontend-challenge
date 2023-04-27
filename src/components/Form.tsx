@@ -19,7 +19,7 @@ const Form: React.FC<Props> = ({ notify }: Props) => {
           <FormQuestion question={question} />
         ))}
 
-        <button className="w-full h-12  self-center rounded-lg font-semibold my-8 bg-amber-200 text-gray-900 ">
+        <button className="w-full h-12  self-center rounded-md font-semibold my-8 bg-amber-200 text-gray-900 text-sm shadow-sm ">
           Submit Review
         </button>
       </div>
