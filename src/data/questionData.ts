@@ -1,7 +1,7 @@
 const questionData = (service: string) => [
-  `Sum up your experience with ${service} in three words`,
-  `How familiar are you with ${service}?`,
-  `How likely would you be to recommend ${service} to a friend?`,
+  `Can you give me some ${service} recommendations?`,
+  `Where can I find out more?`,
+  `Anything else I should know?`,
 ];
 
 export default questionData;

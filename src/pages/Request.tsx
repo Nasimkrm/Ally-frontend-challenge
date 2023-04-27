@@ -24,11 +24,6 @@ const Request: React.FC = () => {
 
   return (
     <div>
-      <header className="flex justify-center items-center py-16 bg-amber-200">
-        <h1 className="text-3xl text-gray-900 font-bold">
-          Jack has requested your recommendation for Ancoats Coffee Co.
-        </h1>
-      </header>
       <div className="flex flex-row">
         <div className="flex-grow">
           <Form notify={notify} />

@@ -11,13 +11,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #efefef;
+  /* background-color: #efefef; */
   max-width: 100vw;
   overflow-x: hidden;
 }
 
 .question {
-  @apply text-gray-900 font-bold text-2xl pt-12 pb-12;
+  @apply text-gray-700 font-bold text-2xl pt-12 pb-12;
 }
 
 .answer {
@@ -25,5 +25,5 @@ body {
 }
 
 .text_area {
-  @apply p-2.5 w-full  text-gray-900 bg-gray-50 rounded-lg border border-gray-200;
+  @apply p-2.5 w-full  text-gray-700 bg-gray-50 rounded-lg border border-gray-200;
 }

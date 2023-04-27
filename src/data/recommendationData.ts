@@ -1,56 +1,36 @@
 const recommendationData = [
   {
     id: "1",
-    user: "Simon",
-    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
-    comment:
-      "Great spot. Amazing coffee, limited but tasty lunch/breakfast selections. Super nice staff. Dog friendly.",
-    summary: "Cool,tasty,dogs",
-    questions: [
-      {
-        question: "How familiar are you with Ancoats Coffee Co.?",
-        answer: "I'm very familiar",
-      },
-      {
-        question: "Describe your experience with Ancoats Coffee Co.?",
-        answer: "Delightful",
-      },
-    ],
+    user: {
+      name: "Simon",
+      avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
+    },
+    type: "cafe",
+    name: "Ancoats Coffee Co.",
+    url: "www.ancoatscoffee.com",
+    upvotes: 3,
   },
   {
     id: "2",
-    user: "Amy",
-    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/4.webp",
-    comment:
-      "Went there on a late afternoon, shop was around 30-40% full. Asked for a V60 pour over coffee and got told by the staff that they will not make it.",
-    summary: "Awful, rude, unrecommendable ",
-    questions: [
-      {
-        question: "How familiar are you with Ancoats Coffee Co.?",
-        answer: "I'm very familiar",
-      },
-      {
-        question: "Describe your experience with Ancoats Coffee Co.?",
-        answer: "Bad",
-      },
-    ],
+    user: {
+      name: "Amy",
+      avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/4.webp",
+    },
+    type: "cafe",
+    name: "Coffee Club.",
+    url: "www.coffeeclub.com",
+    upvotes: 1,
   },
   {
     id: "3",
-    user: "Jack",
-    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
-    comment: "Excellent coffee. The decor is very tasteful and pleasant.",
-    summary: "Excellent, tasteful, pleasant",
-    questions: [
-      {
-        question: "How familiar are you with Ancoats Coffee Co.?",
-        answer: "I'm very familiar",
-      },
-      {
-        question: "Describe your experience with Ancoats Coffee Co.?",
-        answer: "Delightful",
-      },
-    ],
+    user: {
+      name: "Jack",
+      avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/3.webp",
+    },
+    type: "cafe",
+    name: "85 Degrees",
+    url: "www.85degrees.com",
+    upvotes: 0,
   },
 ];
 

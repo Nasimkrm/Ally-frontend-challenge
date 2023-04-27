@@ -3,11 +3,16 @@ interface Question {
   answer: string;
 }
 
+interface User {
+  name: string;
+  avatar: string;
+}
+
 export interface Review {
   id: string;
-  user: string;
-  avatar: string;
-  summary: string;
-  questions: Question[];
-  comment: string;
+  user: User;
+  type: string;
+  name: string;
+  url: string | null;
+  upvotes: number;
 }
