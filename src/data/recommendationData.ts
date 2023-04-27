@@ -2,7 +2,7 @@ const recommendationData = [
   {
     id: "1",
     user: "Simon",
-    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
+    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
     comment:
       "Great spot. Amazing coffee, limited but tasty lunch/breakfast selections. Super nice staff. Dog friendly.",
     summary: "Cool,tasty,dogs",
@@ -20,7 +20,7 @@ const recommendationData = [
   {
     id: "2",
     user: "Amy",
-    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
+    avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/4.webp",
     comment:
       "Went there on a late afternoon, shop was around 30-40% full. Asked for a V60 pour over coffee and got told by the staff that they will not make it.",
     summary: "Awful, rude, unrecommendable ",
