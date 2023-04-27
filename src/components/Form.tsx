@@ -15,8 +15,8 @@ const Form: React.FC<Props> = ({ notify }: Props) => {
   }, []);
   return (
     <form className="flex flex-col items-center p-4" onSubmit={notify}>
-      <User />
       <div className="flex flex-col ">
+        <User />
         {questions?.map((question) => (
           <FormQuestion question={question} />
         ))}

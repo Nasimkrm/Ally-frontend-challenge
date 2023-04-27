@@ -2,7 +2,7 @@ import React from "react";
 
 const User: React.FC = () => {
   return (
-    <div className=" w-3/5 flex flex-row p-2 ml-16 mt-12 ">
+    <div className=" w-3/5 flex flex-row p-2 mt-12 ">
       <img
         src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp"
         alt="Avatar"
